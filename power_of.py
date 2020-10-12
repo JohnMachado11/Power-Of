@@ -54,23 +54,3 @@ class Power_Of:
 # Any number can go on x or y
 
 num1 = Power_Of(x, y).checker()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

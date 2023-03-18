@@ -1,4 +1,4 @@
-class Power_Of: 
+class PowerOf: 
     def __init__(self, base_num, exponent):
         self.base_num = base_num
         self.exponent = exponent
@@ -28,14 +28,14 @@ class Power_Of:
         tracker = self.tracker 
         if countup == -1:
             multiplier = 1 / multiplier
-            return(multiplier)
+            return multiplier
         else:
             while countup < -1:
                 tracker = self.base_num * multiplier
                 multiplier = tracker
                 countup += 1
         tracker = 1 / tracker
-        return(tracker)    
+        return tracker    
     
     def multiplication(self):
         countdown = self.exponent  
@@ -45,7 +45,7 @@ class Power_Of:
             tracker = self.base_num * multiplier
             multiplier = tracker
             countdown -= 1
-        return(tracker)        
+        return tracker        
 
 # Power_Of program gets initialized here. 
 # num1 is an object which feeds data to the program.

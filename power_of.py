@@ -53,4 +53,4 @@ class PowerOf:
 # y = your exponent 
 # Any number can go on x or y
 
-num1 = Power_Of(x, y).checker()
+num1 = PowerOf(x, y).checker()
